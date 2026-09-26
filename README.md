@@ -2,6 +2,8 @@
 
 How much of a global weather field can be recovered when only a small fraction of its grid cells are observed? These experiments use simulated sensor locations on the 64 × 32 ERA5 grid from [WeatherBench 2](https://weatherbench2.readthedocs.io/). The reconstruction models receive sparse measurements, a sensor mask, and a nearest-sensor (Voronoi) interpolation.
 
+**Full project report:** [Atmospheric prediction report (PDF, in French)](report/rendu_projet_prevision_atmospherique_CEREA.pdf).
+
 The work covers 2 m temperature alone and multivariate fields (`z`, `q`, `t2m`, `u`, `v`). The default script configuration observes 5% of grid cells. The notebooks also explore other sensor densities and use their own experiment settings, which are recorded inside each notebook.
 
 ## Experiments
